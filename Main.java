@@ -3,13 +3,13 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] array = {3, 9, 1, 18, 6, 7};
+        int[] array = {0,20,7, 9, 1, 18, 6, 7};// by nadav!!!
         // 1,2,6,7,9,18
 
         int[][] couples = printBestCouples(array);
 
         for (int i = 0; i < couples.length; i++)
-            printArray(couples[i]);
+            printArray(couples[i]); 
 
     }
 
